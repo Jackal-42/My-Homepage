@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <head>
+   <body>
+
+    <div id="background" style="position: absolute; top: -10%; left: 0px; right: 0px; height: 100%; margin: 0px;"><img src="/dragon.png" style="width: 100%; position: absolute; top: 0px; left: 0px; image-rendering: pixelated; background-attachment: fixed;"></div>
+
+    <div id="mainBody" style="width: 50%; left: 5%; top: 5vh; position: absolute;">
+      <b><p style="font-family: 'Outfit'; width: 100%; text-align: center; color: black; font-size: 60px; margin: 0px;">Jackal42</p></b>
+      <i><p>I'm a hobbyist programmer who loves to make web games with JavaScript and sometimes does the art and music.</p></i>
+
+      <div class="stat" style="left: 0px;"><b><p class="sansSerif">Repositories</p><p class="digit" id="repos">0<p></b></div>
+
+      <div class="stat" style="left: 35%;"><b><p class="sansSerif">Followers</p><p class="digit" id="followers">0<p></b></div>
+
+      <div class="stat" style="right: 0px;"><b><p class="sansSerif">Following</p><p class="digit" id="following">0<p></b></div>
+
+      <b><h2 style="margin: 0px; margin-top: 32%; position: relative;">Current Projects</h2></b>
+      <br>
+      <p style="position: relative; top: 1%; margin: 0px;">A top-down resource management game themed around controlling a thriving oil company intent on dominating the market (Collab with <a href="https://github.com/robtech21">Robert Furr</a>)</p>
+      
+    </div>
+
+    
+
+    
+
+    <div id="lowerBody" style="position: absolute; top: 100%; left: 0%; right: 0%; bottom: 200%;">
+      <b><h2 style="font-size: 60px; margin-top: 10 margin: 0px; position: relative; color: white;">Completed Projects</h2></b>
+      <br>
+	 
+      <div class="showcase">
+      <a href="https://jackal-42.github.io/Castaway/"><img class="showcaseImage" src="/castaway.png">
+      <div id="lowerBody" style="position: absolute; top: 90%; left: 0%; right: 0%; bottom: 200%;"></div>
+   
+      <p class="showcaseTitle">Castaway</p></a></div>
+
+      <div class="showcase" style="left: 35%;">
+      <a href="https://jackal-42.github.io/Blue/"><img class="showcaseImage" src="/blue.png">
+      <div id="lowerBody" style="position: absolute; top: 90%; left: 0%; right: 0%; bottom: 200%;"></div>
+   
+      <p class="showcaseTitle">Blue</p></a></div>
+    
+
+    </div>
+  
+    <div id="scrollButton" style="border-radius: 50%; width: 8vw; height: 8vw; border: 0.5vw solid black; backdrop-filter: blur(4px); background-color: rgba(255, 255, 255, 0.4); bottom: 5%; position: fixed; left: 50%; -ms-transform: translate(-50%, 0%); transform: translate(-50%, 0%); cursor: pointer; transition: 600ms;" onclick="scrollDown()"><span id="arrow" style="border: solid black; border-width: 0 1vw 1vw 0; display: inline-block; padding: 3px; transform: rotate(-135deg); -webkit-transform: rotate(-135deg); position: absolute; width: 40%; height: 40%; left: 20%; top: 20%;"></span></div>
+    
+    <!-- <b><h2 style="font-family: 'Outfit'; width: 100%; text-align: center; color: white; font-size: 60px; margin: 12px;">Jackal42</h2></b>
+     
+    <i><p>I'm a hobbyist programmer who loves to make web games with JavaScript and sometimes does the art and music.</p></i>
+    <br><br>
+    <b><h2>Current Projects</h2></b>
+    <p>A resource-management game where you control an oil business and dominate the market (Collab. with <a href="https://github.com/robtech21">Robert Furr</a>)</p> 
+    <br>
+    <b><h2>Completed Projects</h2></b> 
+    <p>Blue, a small platformer which uses only rectangles for graphics and allows you to build massive momentum</p>
+    <p>Castaway, a side-scrolling RPG which pits you against The Monkey and some monsters in an attempt to escape a tropical island</p> -->
+     
+    <script src="script.js"></script>
+  </body>
+</html>
